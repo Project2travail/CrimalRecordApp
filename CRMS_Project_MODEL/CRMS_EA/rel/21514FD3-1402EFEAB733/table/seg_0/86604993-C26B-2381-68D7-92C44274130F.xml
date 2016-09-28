@@ -1,0 +1,120 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="86604993-C26B-2381-68D7-92C44274130F" name="CAS_CRIMINEL">
+<createdBy>Joel Mengolo</createdBy>
+<createdTime>2016-09-27 23:43:58 UTC</createdTime>
+<ownerDesignName>CRMS_EA</ownerDesignName>
+<ordsAlias>table_5</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CAS_ID" id="1DDF79C6-7987-C732-17D3-64317F02DC1B">
+<createdBy>Joel Mengolo</createdBy>
+<createdTime>2016-09-27 23:49:23 UTC</createdTime>
+<ownerDesignName>CRMS_EA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="AAB2FA77-BF82-AF02-2993-B8A5F6B329B5" referredColumn="4A7EF1D1-E504-8184-F5DD-F638C5A1B242"/>
+</associations>
+</Column>
+<Column name="CRIMINEL_ID" id="1960DFB0-7A26-A4D3-D5DD-0328A8701505">
+<createdBy>Joel Mengolo</createdBy>
+<createdTime>2016-09-27 23:49:23 UTC</createdTime>
+<ownerDesignName>CRMS_EA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="86C0A154-32FE-4BD3-06BE-6000F298D63E" referredColumn="18AA7602-339E-0A45-D3E0-BC00E8608F42"/>
+</associations>
+</Column>
+<Column name="CRIME_ID" id="F8052AD1-08D6-2C3C-A9AA-41FA15DFDD47">
+<createdBy>Joel Mengolo</createdBy>
+<createdTime>2016-09-27 23:49:23 UTC</createdTime>
+<ownerDesignName>CRMS_EA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C431701E-2B00-B3F3-70AC-C20D9DBA1D5D" referredColumn="49777E7B-4EEC-5FFE-7164-F4BB3CE1F321"/>
+</associations>
+</Column>
+<Column name="COURS_JUSTICE" id="D8A64925-4E99-D6F5-A1B0-E561FA58D5E3">
+<createdBy>Joel Mengolo</createdBy>
+<createdTime>2016-09-27 23:49:23 UTC</createdTime>
+<ownerDesignName>CRMS_EA</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DATE_CONDAMNATION" id="FD62CACE-CEEF-4C99-3055-0F3E31FA13AE">
+<createdBy>Joel Mengolo</createdBy>
+<createdTime>2016-09-27 23:49:23 UTC</createdTime>
+<ownerDesignName>CRMS_EA</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="48D6F856-0E17-0ABB-AE52-0C699C4664E1" name="CRIMINEL_PKv2">
+<createdBy>Joel Mengolo</createdBy>
+<createdTime>2016-09-27 23:49:23 UTC</createdTime>
+<ownerDesignName>CRMS_EA</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1960DFB0-7A26-A4D3-D5DD-0328A8701505"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B89D323A-52E2-AB63-F634-EA1574AD014F" name="TABLE_5_CAS_FK">
+<createdBy>Joel Mengolo</createdBy>
+<createdTime>2016-09-27 23:49:23 UTC</createdTime>
+<ownerDesignName>CRMS_EA</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1DDF79C6-7987-C732-17D3-64317F02DC1B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6DA7B5CD-0016-57B7-5EBF-FA6C7A61512D" name="CAS_CRIMINEL_TYPE_CRIME_FK">
+<createdBy>Joel Mengolo</createdBy>
+<createdTime>2016-09-27 23:55:06 UTC</createdTime>
+<ownerDesignName>CRMS_EA</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F8052AD1-08D6-2C3C-A9AA-41FA15DFDD47"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="35C6F290-18C9-1018-CE27-769090A8BC68" name="CAS_CRIMINEL_CRIMINEL_FK">
+<createdBy>Joel Mengolo</createdBy>
+<createdTime>2016-09-28 00:01:41 UTC</createdTime>
+<ownerDesignName>CRMS_EA</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1960DFB0-7A26-A4D3-D5DD-0328A8701505"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

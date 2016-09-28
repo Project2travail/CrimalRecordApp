@@ -1,0 +1,4 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.relational.RelationalDesign>
+   <object objectType="main_view" objectID="0AEDE827-442E-51EA-EBA9-9A4125BE4AB8" name="CRMS-EA" visible="true"/>
+</oracle.dbtools.crest.model.design.relational.RelationalDesign>

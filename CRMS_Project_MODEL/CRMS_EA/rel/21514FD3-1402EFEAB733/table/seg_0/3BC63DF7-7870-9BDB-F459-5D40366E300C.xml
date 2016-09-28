@@ -1,0 +1,73 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3BC63DF7-7870-9BDB-F459-5D40366E300C" name="PLAIGNANT">
+<createdBy>Joel Mengolo</createdBy>
+<createdTime>2016-09-28 00:26:43 UTC</createdTime>
+<ownerDesignName>CRMS_EA</ownerDesignName>
+<ordsAlias>table_18</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="PLAIGNANT_ID" id="CC56937E-80EC-8140-0867-573DB3676FB4">
+<createdBy>Joel Mengolo</createdBy>
+<createdTime>2016-09-28 00:27:55 UTC</createdTime>
+<ownerDesignName>CRMS_EA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5C4B4FF9-69BB-B4A0-4C2B-E1B569E82D33" referredColumn="05CE57B9-ED4C-9F61-BEFB-BA93515D19A4"/>
+</associations>
+</Column>
+<Column name="PV" id="E8A0F303-3F8E-E2C7-9671-AD6E1FB947E3">
+<createdBy>Joel Mengolo</createdBy>
+<createdTime>2016-09-28 00:27:55 UTC</createdTime>
+<ownerDesignName>CRMS_EA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2D1512CF-5B5A-0880-9F18-3F206C1739B4" referredColumn="AFDC0225-79A2-274B-E3C2-E64A25FBF499"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="DEC80A0E-5CC0-B78B-A388-3FA074BE942E" name="PLAIGNANT_PK">
+<createdBy>Joel Mengolo</createdBy>
+<createdTime>2016-09-28 00:27:55 UTC</createdTime>
+<ownerDesignName>CRMS_EA</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CC56937E-80EC-8140-0867-573DB3676FB4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="42B0BDE5-3710-B322-6C47-9898C59467B6" name="TABLE_18_PERSONNE_FK">
+<createdBy>Joel Mengolo</createdBy>
+<createdTime>2016-09-28 00:27:55 UTC</createdTime>
+<ownerDesignName>CRMS_EA</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CC56937E-80EC-8140-0867-573DB3676FB4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6A06BC1D-C43F-8BE9-4E50-DCCDC2608575" name="TABLE_18_PV_FK">
+<createdBy>Joel Mengolo</createdBy>
+<createdTime>2016-09-28 00:27:55 UTC</createdTime>
+<ownerDesignName>CRMS_EA</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E8A0F303-3F8E-E2C7-9671-AD6E1FB947E3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

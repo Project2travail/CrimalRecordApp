@@ -1,0 +1,73 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B9DB9EC3-51D3-F030-034A-72A67340A095" name="DECLARATION">
+<createdBy>Joel Mengolo</createdBy>
+<createdTime>2016-09-27 23:40:25 UTC</createdTime>
+<ownerDesignName>CRMS_EA</ownerDesignName>
+<ordsAlias>table_4</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CAS_ID" id="B5EE8A10-65EA-301E-CBF7-6E650F22651A">
+<createdBy>Joel Mengolo</createdBy>
+<createdTime>2016-09-27 23:43:31 UTC</createdTime>
+<ownerDesignName>CRMS_EA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="64433AC9-300E-0E17-4502-5514EEA9B3E9" referredColumn="4A7EF1D1-E504-8184-F5DD-F638C5A1B242"/>
+</associations>
+</Column>
+<Column name="DECLARATION_PLAIGNANT" id="B4A83213-DDEE-DEC1-ACB6-86628C5F6DA9">
+<createdBy>Joel Mengolo</createdBy>
+<createdTime>2016-09-27 23:43:31 UTC</createdTime>
+<ownerDesignName>CRMS_EA</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>5000</dataTypeSize>
+<ownDataTypeParameters>5000,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DECLARATION_VICTIME" id="229002BF-9280-B2A5-7D2D-C7883EEE35A6">
+<createdBy>Joel Mengolo</createdBy>
+<createdTime>2016-09-27 23:43:31 UTC</createdTime>
+<ownerDesignName>CRMS_EA</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>5000</dataTypeSize>
+<ownDataTypeParameters>5000,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DECLARATION_ACCUSE" id="52EE9D0F-A391-30CE-C536-3790F4C72215">
+<createdBy>Joel Mengolo</createdBy>
+<createdTime>2016-09-27 23:43:31 UTC</createdTime>
+<ownerDesignName>CRMS_EA</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8723A2DD-7358-310D-7B1F-5479E4E475C1" name="DECLARATION_CAS_FK">
+<createdBy>Joel Mengolo</createdBy>
+<createdTime>2016-09-27 23:43:47 UTC</createdTime>
+<ownerDesignName>CRMS_EA</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B5EE8A10-65EA-301E-CBF7-6E650F22651A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

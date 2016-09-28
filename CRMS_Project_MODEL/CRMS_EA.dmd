@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="CRMS_EA" id="02CFE862-7E59-B541-473A-3FA9914D86EE" version="3.5">
+<createdBy>Joel Mengolo</createdBy>
+<createdTime>2016-09-27 23:24:33 UTC</createdTime>
+<ownerDesignName>CRMS_EA</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>02CFE862-7E59-B541-473A-3FA9914D86EE</designId>
+</OSDM_Design>

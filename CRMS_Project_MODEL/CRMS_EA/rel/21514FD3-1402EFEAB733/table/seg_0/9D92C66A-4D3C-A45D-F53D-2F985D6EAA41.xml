@@ -1,0 +1,71 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9D92C66A-4D3C-A45D-F53D-2F985D6EAA41" name="TYPE_CRIME">
+<createdBy>Joel Mengolo</createdBy>
+<createdTime>2016-09-27 23:49:43 UTC</createdTime>
+<ownerDesignName>CRMS_EA</ownerDesignName>
+<ordsAlias>table_6</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="TYPE_CRIM_ID" id="49777E7B-4EEC-5FFE-7164-F4BB3CE1F321">
+<createdBy>Joel Mengolo</createdBy>
+<createdTime>2016-09-27 23:51:39 UTC</createdTime>
+<ownerDesignName>CRMS_EA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D4093B6A-8431-7B36-EF0B-A66789FD4FFA" referredColumn="49777E7B-4EEC-5FFE-7164-F4BB3CE1F321"/>
+</associations>
+</Column>
+<Column name="CRIME_NAME" id="DE4E5088-4EFD-A62A-C89C-2929BE5D3B67">
+<createdBy>Joel Mengolo</createdBy>
+<createdTime>2016-09-27 23:51:39 UTC</createdTime>
+<ownerDesignName>CRMS_EA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>500</dataTypeSize>
+<ownDataTypeParameters>500,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DELIT" id="4B85AB8D-4CED-D132-ABB4-6BB54403A3EF">
+<createdBy>Joel Mengolo</createdBy>
+<createdTime>2016-09-27 23:51:39 UTC</createdTime>
+<ownerDesignName>CRMS_EA</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>500</dataTypeSize>
+<ownDataTypeParameters>500,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9E0D7EEE-1745-F091-4F7F-086F4D7A17CA" name="TYPE_CRIME_PK">
+<createdBy>Joel Mengolo</createdBy>
+<createdTime>2016-09-27 23:51:39 UTC</createdTime>
+<ownerDesignName>CRMS_EA</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="49777E7B-4EEC-5FFE-7164-F4BB3CE1F321"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D5690052-2D9E-2A4B-6A00-A36100885526" name="TYPE_CRIME_TYPE_CRIME_FK">
+<createdBy>Joel Mengolo</createdBy>
+<createdTime>2016-09-27 23:52:27 UTC</createdTime>
+<ownerDesignName>CRMS_EA</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="49777E7B-4EEC-5FFE-7164-F4BB3CE1F321"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

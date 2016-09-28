@@ -1,0 +1,62 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DD7F55F9-632D-C58A-CCE0-ED73F8B55853" name="ACCUSE">
+<createdBy>Joel Mengolo</createdBy>
+<createdTime>2016-09-28 00:20:27 UTC</createdTime>
+<ownerDesignName>CRMS_EA</ownerDesignName>
+<ordsAlias>table_16</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ACCUSE_ID" id="15C3295C-FAED-EE99-13C0-AA0E929809AC">
+<createdBy>Joel Mengolo</createdBy>
+<createdTime>2016-09-28 00:20:55 UTC</createdTime>
+<ownerDesignName>CRMS_EA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4A999DDA-0CCC-0006-7D9D-4659E87A1DD4" referredColumn="05CE57B9-ED4C-9F61-BEFB-BA93515D19A4"/>
+</associations>
+</Column>
+<Column name="PV" id="F2848982-1EFC-20C7-95E4-49A933FEBE35">
+<createdBy>Joel Mengolo</createdBy>
+<createdTime>2016-09-28 00:22:24 UTC</createdTime>
+<ownerDesignName>CRMS_EA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A5C34BE1-E83B-4013-3788-38227C26AE34" referredColumn="AFDC0225-79A2-274B-E3C2-E64A25FBF499"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5E6F0819-A192-DC40-0AB0-93FA65990499" name="ACCUSE_PV_FK">
+<createdBy>Joel Mengolo</createdBy>
+<createdTime>2016-09-28 00:23:26 UTC</createdTime>
+<ownerDesignName>CRMS_EA</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F2848982-1EFC-20C7-95E4-49A933FEBE35"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CCD44F02-C06E-0E10-F78C-FF0AB4F98049" name="ACCUSE_PERSONNE_FK">
+<createdBy>Joel Mengolo</createdBy>
+<createdTime>2016-09-28 00:24:13 UTC</createdTime>
+<ownerDesignName>CRMS_EA</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="15C3295C-FAED-EE99-13C0-AA0E929809AC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,73 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E0177E96-DAB0-28B0-B36B-0514F196DF51" name="VICTIME">
+<createdBy>Joel Mengolo</createdBy>
+<createdTime>2016-09-28 00:24:44 UTC</createdTime>
+<ownerDesignName>CRMS_EA</ownerDesignName>
+<ordsAlias>table_17</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="VICTIM_ID" id="92538C80-2875-6776-846B-E16728DE3398">
+<createdBy>Joel Mengolo</createdBy>
+<createdTime>2016-09-28 00:25:17 UTC</createdTime>
+<ownerDesignName>CRMS_EA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="34635E5E-31E3-CE00-B6A4-1405DDD83E82" referredColumn="05CE57B9-ED4C-9F61-BEFB-BA93515D19A4"/>
+</associations>
+</Column>
+<Column name="PV" id="4C6E2F94-A7B5-D5C4-D91B-9FEB69997A11">
+<createdBy>Joel Mengolo</createdBy>
+<createdTime>2016-09-28 00:25:31 UTC</createdTime>
+<ownerDesignName>CRMS_EA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D4E9C47B-860D-18B6-C048-6698E6B3A38F" referredColumn="AFDC0225-79A2-274B-E3C2-E64A25FBF499"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C19020FA-E570-C921-1525-2B44D1AC6FDA" name="VICTIME_PK">
+<createdBy>Joel Mengolo</createdBy>
+<createdTime>2016-09-28 00:26:11 UTC</createdTime>
+<ownerDesignName>CRMS_EA</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="92538C80-2875-6776-846B-E16728DE3398"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="83821D2F-DE5B-CF97-CA92-3E4456657480" name="VICTIME_PV_FK">
+<createdBy>Joel Mengolo</createdBy>
+<createdTime>2016-09-28 00:26:11 UTC</createdTime>
+<ownerDesignName>CRMS_EA</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4C6E2F94-A7B5-D5C4-D91B-9FEB69997A11"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5F71FE70-A25D-719A-B959-7C123D1BA73B" name="VICTIME_PERSONNE_FK">
+<createdBy>Joel Mengolo</createdBy>
+<createdTime>2016-09-28 00:26:11 UTC</createdTime>
+<ownerDesignName>CRMS_EA</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="92538C80-2875-6776-846B-E16728DE3398"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

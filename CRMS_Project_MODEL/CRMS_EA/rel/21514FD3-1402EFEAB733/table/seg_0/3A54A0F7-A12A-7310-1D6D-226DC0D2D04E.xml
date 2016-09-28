@@ -1,0 +1,143 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3A54A0F7-A12A-7310-1D6D-226DC0D2D04E" name="PV">
+<createdBy>Joel Mengolo</createdBy>
+<createdTime>2016-09-28 00:09:13 UTC</createdTime>
+<ownerDesignName>CRMS_EA</ownerDesignName>
+<ordsAlias>table_10</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="PV_ID" id="AFDC0225-79A2-274B-E3C2-E64A25FBF499">
+<createdBy>Joel Mengolo</createdBy>
+<createdTime>2016-09-28 00:23:14 UTC</createdTime>
+<ownerDesignName>CRMS_EA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="OFFICIER" id="1405D38F-50BB-D8C6-A96F-2103EAF79EB6">
+<createdBy>Joel Mengolo</createdBy>
+<createdTime>2016-09-28 00:13:51 UTC</createdTime>
+<ownerDesignName>CRMS_EA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F8106D30-2B40-D662-44AF-EF3DE47A5E5B" referredColumn="DC82A143-F52A-68B3-0EFA-0F881A499698"/>
+</associations>
+</Column>
+<Column name="CAS_ID" id="7F42E5AD-8051-A3A0-593A-A5B258A920BF">
+<createdBy>Joel Mengolo</createdBy>
+<createdTime>2016-09-28 00:13:51 UTC</createdTime>
+<ownerDesignName>CRMS_EA</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="05C92B98-3953-633B-AD85-12EE121819E1" referredColumn="4A7EF1D1-E504-8184-F5DD-F638C5A1B242"/>
+</associations>
+</Column>
+<Column name="LIEU" id="C9F6D46C-F848-08EE-B5FD-03E79E568A45">
+<createdBy>Joel Mengolo</createdBy>
+<createdTime>2016-09-28 00:13:51 UTC</createdTime>
+<ownerDesignName>CRMS_EA</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CONTENU" id="98DE8B24-44B1-2097-B4AF-F323C54D0DE1">
+<createdBy>Joel Mengolo</createdBy>
+<createdTime>2016-09-28 00:13:51 UTC</createdTime>
+<ownerDesignName>CRMS_EA</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>5000</dataTypeSize>
+<ownDataTypeParameters>5000,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MOMENT_PV" id="C4E3A3C8-9CF0-2809-823E-BDE5AFF36221">
+<createdBy>Joel Mengolo</createdBy>
+<createdTime>2016-09-28 00:13:51 UTC</createdTime>
+<ownerDesignName>CRMS_EA</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="STATUS" id="0DDBFD1D-C8E2-333F-0236-87D5AF023DFD">
+<createdBy>Joel Mengolo</createdBy>
+<createdTime>2016-09-28 00:13:51 UTC</createdTime>
+<ownerDesignName>CRMS_EA</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="RAISON" id="15087CAC-0AA4-8F4A-4F77-598E5528E5C8">
+<createdBy>Joel Mengolo</createdBy>
+<createdTime>2016-09-28 00:15:22 UTC</createdTime>
+<ownerDesignName>CRMS_EA</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>5000</dataTypeSize>
+<ownDataTypeParameters>5000,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1D0448A7-418E-48DD-B5A1-2F9F9F24D504" name="PV_PK">
+<createdBy>Joel Mengolo</createdBy>
+<createdTime>2016-09-28 00:23:14 UTC</createdTime>
+<ownerDesignName>CRMS_EA</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AFDC0225-79A2-274B-E3C2-E64A25FBF499"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AB6D4327-8AEC-C4FA-0CBE-08153E72B85A" name="TABLE_10_CAS_FK">
+<createdBy>Joel Mengolo</createdBy>
+<createdTime>2016-09-28 00:13:51 UTC</createdTime>
+<ownerDesignName>CRMS_EA</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7F42E5AD-8051-A3A0-593A-A5B258A920BF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="861FC1EC-2119-C015-13A6-FD8B57D9A6E7" name="PV_OFFICIER_FK">
+<createdBy>Joel Mengolo</createdBy>
+<createdTime>2016-09-28 00:14:40 UTC</createdTime>
+<ownerDesignName>CRMS_EA</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1405D38F-50BB-D8C6-A96F-2103EAF79EB6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

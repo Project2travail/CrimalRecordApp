@@ -1,0 +1,14 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="86C0A154-32FE-4BD3-06BE-6000F298D63E" containerWithKeyObject="86604993-C26B-2381-68D7-92C44274130F" localFKIndex="35C6F290-18C9-1018-CE27-769090A8BC68" name="CAS_CRIMINEL_CRIMINEL_FK">
+<createdBy>Joel Mengolo</createdBy>
+<createdTime>2016-09-28 00:01:41 UTC</createdTime>
+<ownerDesignName>CRMS_EA</ownerDesignName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>4516E15B-54AE-26DF-6B06-F840A30AD60B</referredTableID>
+<keyObject>81819CC2-675F-2841-B7D5-5359CECEEB99</keyObject>
+<referredKeyID>81819CC2-675F-2841-B7D5-5359CECEEB99</referredKeyID>
+<mandatory>true</mandatory>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

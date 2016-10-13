@@ -38,6 +38,17 @@
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7BAE7A77-BC90-0EEF-2DE1-6782F4FCD9D3" name="ACCUSE_PK">
+<createdBy>Joel Mengolo</createdBy>
+<createdTime>2016-10-05 21:36:20 UTC</createdTime>
+<ownerDesignName>CRMS_EA</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="15C3295C-FAED-EE99-13C0-AA0E929809AC"/>
+</indexColumnUsage>
+</ind_PK_UK>
 <ind_PK_UK id="5E6F0819-A192-DC40-0AB0-93FA65990499" name="ACCUSE_PV_FK">
 <createdBy>Joel Mengolo</createdBy>
 <createdTime>2016-09-28 00:23:26 UTC</createdTime>
